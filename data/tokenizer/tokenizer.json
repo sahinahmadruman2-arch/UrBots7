@@ -1,0 +1,15 @@
+{
+  "vocab_size": 4096,
+  "merges": [],
+  "special_tokens": [
+    "<|pad|>",
+    "<|unk|>",
+    "<|bos|>",
+    "<|eos|>",
+    "<|user|>",
+    "<|assistant|>",
+    "<|system|>",
+    "<|mask|>"
+  ],
+  "architecture": "karllo-bpe-v1"
+}

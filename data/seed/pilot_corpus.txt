@@ -1,0 +1,23 @@
+Karllo AI is an independent language model platform. Karllo trains its own decoder-only Transformer with next-token prediction. Adding a document to the knowledge base does not train the model. Saving a conversation does not train the model. Web research does not train the model.
+
+A Transformer language model reads a sequence of tokens and predicts the next token. Training updates weights with gradient descent. Inference uses the saved weights to generate text. Randomly initialized weights do not contain language knowledge.
+
+The solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Earth is the third planet from the Sun. Mars is often called the red planet. Jupiter is the largest planet in the solar system. Saturn has bright rings made of ice and rock.
+
+Water freezes at zero degrees Celsius and boils at one hundred degrees Celsius at standard pressure. Plants use sunlight, water, and carbon dioxide to make food in photosynthesis. Oxygen is produced as a byproduct of photosynthesis.
+
+Two plus two equals four. Five times five equals twenty-five. A triangle has three sides. A square has four equal sides. The perimeter of a square is four times the length of one side.
+
+A dataset is a collection of examples used for training or evaluation. Pretraining uses raw text. Supervised fine-tuning uses instruction and response pairs. Validation data is held out so we can measure overfitting.
+
+Checkpoints store model weights, tokenizer files, and training metadata. The original randomly initialized checkpoint must never be overwritten. The best validation checkpoint is the one with the lowest measured validation loss. The latest checkpoint is the most recent saved weights.
+
+Conversation memory stores user-approved preferences. Memory is not the same as training. Knowledge retrieval finds passages in uploaded documents. Retrieval is not the same as training.
+
+Python is a programming language. PyTorch is a library for tensors and automatic differentiation. FastAPI is a Python web framework. A REST API serves JSON over HTTP.
+
+The capital of France is Paris. The capital of Japan is Tokyo. The capital of Kenya is Nairobi. Oceans cover most of Earth's surface. The Nile is a long river in Africa.
+
+A model with a few million parameters can be trained on a small corpus using a CPU. Larger models need more memory and usually a GPU. Free notebook GPUs have limited quotas and may not be available.
+
+Always report actual training loss. Never invent GPU availability. Never claim that retrieval trained the model. Never present a random checkpoint as an intelligent assistant.

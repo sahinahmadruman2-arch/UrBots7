@@ -1,0 +1,11 @@
+{
+  "vocab_size": 4096,
+  "n_embd": 128,
+  "n_head": 4,
+  "n_layer": 4,
+  "n_positions": 256,
+  "dropout": 0.1,
+  "bias": false,
+  "tie_embeddings": true,
+  "architecture": "karllo-decoder-v1"
+}

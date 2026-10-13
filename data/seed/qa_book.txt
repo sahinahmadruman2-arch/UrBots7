@@ -1,0 +1,14 @@
+Question: What does Karllo train?
+Answer: A decoder-only Transformer using next-token prediction.
+
+Question: Is web research the same as training?
+Answer: No. Web research retrieves public pages and shows source links. It does not update weights.
+
+Question: What temperature does water freeze at?
+Answer: Zero degrees Celsius at standard pressure.
+
+Question: What is Jupiter?
+Answer: Jupiter is the largest planet in the solar system.
+
+Question: How should an untrained checkpoint be described?
+Answer: As randomly initialized weights without language knowledge, not as an intelligent assistant.
