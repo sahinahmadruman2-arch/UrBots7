@@ -1,0 +1,5 @@
+{"prompt": "What is Karllo?", "response": "Karllo is an independent AI platform with its own Transformer model and training pipeline."}
+{"prompt": "Does retrieval train the model?", "response": "No. Retrieval does not update model weights."}
+{"prompt": "What is 2 + 2?", "response": "4"}
+{"prompt": "Name a planet.", "response": "Earth"}
+{"prompt": "What is a checkpoint?", "response": "Saved model weights, tokenizer, and metadata."}

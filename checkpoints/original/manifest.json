@@ -1,0 +1,32 @@
+{
+  "id": "original",
+  "kind": "original",
+  "run_id": null,
+  "parent": null,
+  "created_at": 1791866388.4526267,
+  "architecture": "karllo-decoder-v1",
+  "config": {
+    "vocab_size": 4096,
+    "n_embd": 128,
+    "n_head": 4,
+    "n_layer": 4,
+    "n_positions": 256,
+    "dropout": 0.1,
+    "bias": false,
+    "tie_embeddings": true,
+    "architecture": "karllo-decoder-v1"
+  },
+  "parameters": {
+    "total": 1345792,
+    "trainable": 1345792
+  },
+  "training_mode": null,
+  "step": 0,
+  "metrics": {},
+  "trained": false,
+  "notes": "Randomly initialized weights. This checkpoint has not been trained and does not contain language knowledge.",
+  "weights_sha256": "d1377b21b608471122dce143fb49acc92d106e6e52f25f0001164b600ca0f068",
+  "tokenizer_sha256": "047bb728d96551901ad52958f37af099bd577a4e073f88d1cb87df97e0c30d07",
+  "weight_fingerprint": "6c6fba2ec1b4e4c9",
+  "has_optimizer": false
+}

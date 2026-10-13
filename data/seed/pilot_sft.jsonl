@@ -1,0 +1,12 @@
+{"prompt": "What is Karllo?", "response": "Karllo is an independent AI platform with its own Transformer model, training pipeline, and checkpoints."}
+{"prompt": "Does adding a document train the model?", "response": "No. Adding a document is knowledge retrieval. Training updates model weights with gradient descent."}
+{"prompt": "What is 2 + 2?", "response": "4"}
+{"prompt": "Name the third planet from the Sun.", "response": "Earth"}
+{"prompt": "What is pretraining?", "response": "Pretraining is next-token prediction on raw text starting from randomly initialized weights."}
+{"prompt": "What is supervised fine-tuning?", "response": "Supervised fine-tuning trains a checkpoint on instruction-response examples with prompt tokens masked from the loss."}
+{"prompt": "What is a checkpoint?", "response": "A checkpoint is a saved copy of model weights, tokenizer, and metadata from a training run."}
+{"prompt": "Does conversation memory change model weights?", "response": "No. Memory stores user-approved notes separately from model parameters."}
+{"prompt": "What library trains Karllo?", "response": "Karllo trains with PyTorch using real gradients and an optimizer."}
+{"prompt": "When is a random model intelligent?", "response": "Never. Randomly initialized weights do not contain pretrained language knowledge."}
+{"messages": [{"role": "user", "content": "Explain validation loss."}, {"role": "assistant", "content": "Validation loss is the average next-token loss on held-out data. It is measured, not invented, and helps detect overfitting."}]}
+{"messages": [{"role": "user", "content": "List three planets."}, {"role": "assistant", "content": "Earth, Mars, and Jupiter."}]}
